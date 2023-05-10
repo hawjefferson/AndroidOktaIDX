@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">totp</string>
+    <string name="otp_scan_success">Added totp for %1$s</string>
+    <string name="ok">OK</string>
+    <string name="go_back">Go Back</string>
+    <string name="barcode_screen_title">Scan TOTP QR code</string>
+    <string name="camera_permission_request">The camera is important for this app. Please grant the permission.</string>
+    <string name="request_permission">Request permission</string>
+    <string name="otp_screen_title">OTP Codes</string>
+    <string name="otp_screen_add_button_description">Add OTP QR code</string>
+    <string name="account_label">Account: %1$s</string>
+    <string name="issuer_label">Issuer: %1$s</string>
+    <string name="delete_button_description">Delete</string>
+    <string name="otp_parsing_missing_scheme">Missing scheme in totp URI</string>
+    <string name="otp_parsing_invalid_scheme">Invalid scheme in totp URI: %1$s. Only "otpauth" is supported</string>
+    <string name="otp_parsing_missing_type">Missing type in totp URI</string>
+    <string name="otp_parsing_invalid_type">Invalid type in totp URI: %1$s. Only "totp" is supported</string>
+    <string name="otp_parsing_missing_label">Totp URI doesn\'t contain label</string>
+    <string name="otp_parsing_invalid_label">Totp URI has invalid label</string>
+    <string name="otp_parsing_uri_missing_required_param">OTP URI is missing required parameter: secret</string>
+    <string name="otp_parsing_issuer_mismatch">Issuer in label not matching with issuer query parameter</string>
+    <string name="otp_parsing_issuer_arg_missing">Issuer parameter provided without argument</string>
+    <string name="otp_parsing_invalid_algorithm">Invalid algorithm in totp URI</string>
+</resources>
